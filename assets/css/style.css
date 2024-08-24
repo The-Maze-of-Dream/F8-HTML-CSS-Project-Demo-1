@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -74,6 +75,7 @@ a {
 .hero-wrap {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   background: #e6f0ff;
   height: calc(100vh - 90px);
@@ -124,16 +126,13 @@ a {
   border-radius: 8px;
 }
 
-.hero {
-  margin-top: 130px;
-}
 
-.hero .info {
+.hero-wrap .info {
   width: 50.36%;
   flex-shrink: 0;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   color: #687690;
   /* font-family: Poppins; */
   font-size: 1.8rem;
@@ -144,7 +143,7 @@ a {
   margin-bottom: 8px;
 }
 
-.hero .title {
+.hero-wrap .title {
   color: #000336;
   /* font-family: Poppins;  */
   font-size: 6.2rem;
@@ -154,7 +153,7 @@ a {
   margin-bottom: 30px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   color: #5a6473;
   /* font-family: Poppins; */
   font-size: 1.8rem;
