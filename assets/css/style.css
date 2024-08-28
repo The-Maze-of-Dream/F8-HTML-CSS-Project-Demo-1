@@ -70,17 +70,6 @@ a {
   z-index: 1;
 }
 
-/* ================= Hero Wrap ================= */
-
-.hero-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  background: #e6f0ff;
-  height: calc(100vh - 90px);
-}
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -125,7 +114,16 @@ a {
   margin-left: 18px;
   border-radius: 8px;
 }
+/* ================= Hero Wrap ================= */
 
+.hero-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background: #e6f0ff;
+  height: calc(100vh - 90px);
+}
 
 .hero-wrap .info {
   width: 50.36%;
